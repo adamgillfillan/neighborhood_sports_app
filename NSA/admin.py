@@ -4,3 +4,4 @@ from nsa.models import Event
 
 # Register your models here.
 #asdf
+#test
