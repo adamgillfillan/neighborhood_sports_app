@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5a9637-f53e-4252-bb14-ac50859b50ae" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\adamg_000\Development\python\neighborhood_sports_app\nsa.db" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NSA/models.py" afterPath="$PROJECT_DIR$/NSA/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neighborhood_sports_app/settings.py" afterPath="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="fffc6ef8-cfe2-4923-a7ac-92709dbf5d63" name="./idea" comment="./idea" />
@@ -27,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="16" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1615">
+            <state line="44" column="5" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.7044199" vertical-offset="493" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NSA/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="559">
+            <state line="10" column="4" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -72,8 +74,8 @@
         <option value="$PROJECT_DIR$/nsa/test.py" />
         <option value="$PROJECT_DIR$/nsa/admin.py" />
         <option value="$PROJECT_DIR$/NSA/admin.py" />
-        <option value="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
         <option value="$PROJECT_DIR$/NSA/models.py" />
+        <option value="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
       </list>
     </option>
   </component>
@@ -115,6 +117,32 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="neighborhood_sports_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.3.2 (C:/Python33/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neighborhood_sports_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.3.2 (C:/Python33/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -467,7 +495,11 @@
       <created>1394229820401</created>
       <updated>1394229820401</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added geoposition to model">
+      <created>1394229872577</created>
+      <updated>1394229872577</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -480,11 +512,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257329" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -519,7 +551,8 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="added admin" />
     <MESSAGE value="removed tests file, added geoposition" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed tests file, added geoposition" />
+    <MESSAGE value="added geoposition to model" />
+    <option name="LAST_COMMIT_MESSAGE" value="added geoposition to model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -735,19 +768,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="16" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NSA/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="559">
+        <state line="10" column="4" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="5" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.7044199" vertical-offset="493" max-vertical-offset="1615">
+          <folding />
         </state>
       </provider>
     </entry>
