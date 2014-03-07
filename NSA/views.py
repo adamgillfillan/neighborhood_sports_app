@@ -26,3 +26,11 @@ def map(request):
     context_dict = {}
 
     return render_to_response('nsa/map.html', context_dict, context)
+
+
+def event(request):
+    context = RequestContext(request)
+
+    context_dict = {}
+
+    return render_to_response('nsa/event.html', context_dict, context)
