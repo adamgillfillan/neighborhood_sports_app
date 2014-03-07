@@ -20,3 +20,9 @@ def about(request):
     return render_to_response('nsa/about.html', context_dict, context)
 
 
+def map(request):
+    context = RequestContext(request)
+
+    context_dict = {}
+
+    return render_to_response('nsa/map.html', context_dict, context)
