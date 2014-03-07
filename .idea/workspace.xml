@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5a9637-f53e-4252-bb14-ac50859b50ae" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\adamg_000\Development\python\neighborhood_sports_app\NSA\test.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adamg_000\Development\python\neighborhood_sports_app\NSA\tests.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neighborhood_sports_app/settings.py" afterPath="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NSA/models.py" afterPath="$PROJECT_DIR$/NSA/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="fffc6ef8-cfe2-4923-a7ac-92709dbf5d63" name="./idea" comment="./idea" />
@@ -41,8 +39,10 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NSA/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
-              <folding />
+            <state line="13" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="559">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/nsa/admin.py" />
         <option value="$PROJECT_DIR$/NSA/admin.py" />
         <option value="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
+        <option value="$PROJECT_DIR$/NSA/models.py" />
       </list>
     </option>
   </component>
@@ -462,12 +463,16 @@
       <created>1394229373291</created>
       <updated>1394229373292</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removed tests file, added geoposition">
+      <created>1394229820401</created>
+      <updated>1394229820401</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31921825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33713356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -475,7 +480,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -513,7 +518,8 @@
     <MESSAGE value="added ./idea files" />
     <MESSAGE value="test commit" />
     <MESSAGE value="added admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="added admin" />
+    <MESSAGE value="removed tests file, added geoposition" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed tests file, added geoposition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -529,7 +535,9 @@
     <entry file="file://$PROJECT_DIR$/NSA/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
-          <folding />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -566,7 +574,9 @@
     <entry file="file://$PROJECT_DIR$/NSA/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
-          <folding />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -608,7 +618,9 @@
     <entry file="file://$PROJECT_DIR$/NSA/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="48" selection-start="29" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="323">
-          <folding />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,8 +744,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NSA/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
-          <folding />
+        <state line="13" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="559">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

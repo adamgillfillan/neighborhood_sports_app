@@ -1,5 +1,5 @@
 from django.db import models
-#from geoposition.fields import GeopositionField
+from geoposition.fields import GeopositionField
 
 
 class Event(models.Model):
@@ -8,7 +8,7 @@ class Event(models.Model):
     players = models.IntegerField(default=0)
     #extra information about the event
     info = models.CharField(max_length=128)
-    #position = GeopositionField()
+    position = GeopositionField()
 
     def __str__(self):
         return self.sport, self.info
