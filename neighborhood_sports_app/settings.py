@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'NSA',
-    'leaflet'
+    #'leaflet'
 )
 
 MIDDLEWARE_CLASSES = (
