@@ -1,7 +1,7 @@
 __author__ = 'adamg_000'
 
 from django.conf.urls import patterns, url
-from nsa import views
+from NSA import views
 
 urlpatterns = patterns('',
         url(r'^$', views.index, name='index'),

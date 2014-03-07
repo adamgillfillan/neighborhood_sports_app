@@ -1,5 +1,5 @@
 from django.db import models
-from geoposition.fields import GeopositionField
+#from geoposition.fields import GeopositionField
 
 
 class Event(models.Model):
