@@ -7,6 +7,7 @@ class Event(models.Model):
     players = models.IntegerField(default=0)
     #extra information about the event
     info = models.CharField(max_length=128)
+    address = models.CharField(max_length=300)
 
     def __str__(self):
         return self.sport, self.info
