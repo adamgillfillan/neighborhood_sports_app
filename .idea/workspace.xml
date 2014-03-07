@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5a9637-f53e-4252-bb14-ac50859b50ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NSA/admin.py" afterPath="$PROJECT_DIR$/NSA/admin.py" />
+      <change type="DELETED" beforePath="C:\Users\adamg_000\Development\python\neighborhood_sports_app\NSA\test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adamg_000\Development\python\neighborhood_sports_app\NSA\tests.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neighborhood_sports_app/settings.py" afterPath="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,54 +32,16 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="8" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1598">
+            <state line="44" column="16" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NSA/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NSA/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="117" selection-end="117" vertical-scroll-proportion="0.11564626" vertical-offset="0" max-vertical-offset="588">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NSA/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NSA/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NSA/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="70" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="476">
+            <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
               <folding />
             </state>
           </provider>
@@ -108,16 +71,15 @@
         <option value="$PROJECT_DIR$/nsa/models.py" />
         <option value="$PROJECT_DIR$/nsa/test.py" />
         <option value="$PROJECT_DIR$/nsa/admin.py" />
-        <option value="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
         <option value="$PROJECT_DIR$/NSA/admin.py" />
+        <option value="$PROJECT_DIR$/neighborhood_sports_app/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -215,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -496,12 +458,16 @@
       <created>1394229236389</created>
       <updated>1394229236389</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added admin">
+      <created>1394229373291</created>
+      <updated>1394229373292</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31921825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33713356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -509,7 +475,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -546,7 +512,8 @@
     <MESSAGE value="registered Event model with admin" />
     <MESSAGE value="added ./idea files" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="added admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -572,13 +539,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NSA/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,13 +582,6 @@
     <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2900" max-vertical-offset="3298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NSA/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NSA/urls.py">
@@ -735,34 +688,6 @@
         <state line="7" column="54" selection-start="195" selection-end="195" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="289" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NSA/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NSA/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NSA/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NSA/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.144476" vertical-offset="2522" max-vertical-offset="3298" />
@@ -775,19 +700,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NSA/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="25" selection-start="117" selection-end="117" vertical-scroll-proportion="0.11564626" vertical-offset="0" max-vertical-offset="588">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NSA/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.20238096" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NSA/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="473" selection-end="473" vertical-scroll-proportion="0.46258503" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="16" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NSA/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
+          <folding />
         </state>
       </provider>
     </entry>
