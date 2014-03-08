@@ -14,14 +14,32 @@
 
     <div id="map"></div>
 
-
+    <script>
+        var raleigh_lat = 35.7795897
+        var raleigh_long = -78.6381787
+    </script>
     <script type="text/javascript">
         var map = new GMaps({
             div: '#map',
-            lat: -12.043333,
-            lng: -77.028333,
-            zoom: 15
+            lat: raleigh_lat,
+            lng: raleigh_long,
+            zoom: 12
         });
+    </script>
+    <script>
+        {% for event in event_list %}
+            var lat = "{{ event.latitude }}"
+            var long = "{{ event.longitude }}"
+            var sport = "{{ event.sport }}"
+            map.addMarker({
+                lat: lat,
+                lng: long,
+                title: sport,
+                click: function(e) {
+                    alert('You clicked in this marker');
+                }
+            });
+        {% endfor %}
 
     </script>
     <script src="{% static 'js/jquery.js' %}"></script>
