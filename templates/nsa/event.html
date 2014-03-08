@@ -4,6 +4,14 @@
     <title>List of Events</title>
 </head>
 <body>
-
+    {% if event_list %}
+        <ul>
+            {% for event in event_list %}
+            <li>Sport: {{ event.sport }}, Players: {{ event.players }}, Info: {{ event.info }}, Address: {{ event.address }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <strong>There are no events.</strong>
+    {% endif %}
 </body>
 </html>
