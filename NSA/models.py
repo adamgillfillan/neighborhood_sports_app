@@ -10,4 +10,4 @@ class Event(models.Model):
     address = models.CharField(max_length=300)
 
     def __str__(self):
-        return self.sport, self.info
+        return self.sport
