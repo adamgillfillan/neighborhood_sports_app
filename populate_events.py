@@ -8,7 +8,7 @@ def add_event(sport, players, info, address):
 
 
 def populate():
-    info_a = 'We will be here for another 2 hours. Need more people',
+    info_a = 'We will be here for another 2 hours. Need more people'
     info_b = 'We are on the second field.'
 
     lake_johnson = 'Lake Johnson Park, Raleigh, NC'
