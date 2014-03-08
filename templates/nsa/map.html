@@ -1,9 +1,29 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
-    <title></title>
+    <title>Map</title>
+    <link href="{% static 'css/map.css' %}" rel="stylesheet">
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvuX38ixu5Y8mD09agKjXH7xUNJPS_OIU&sensor=true">
+    </script>
+    <script src="{% static 'js/gmaps.js' %}"></script>
 </head>
 <body>
 
+
+    <div id="map"></div>
+
+
+    <script type="text/javascript">
+        var map = new GMaps({
+            div: '#map',
+            lat: -12.043333,
+            lng: -77.028333,
+            zoom: 15
+        });
+
+    </script>
+    <script src="{% static 'js/jquery.js' %}"></script>
 </body>
 </html>
