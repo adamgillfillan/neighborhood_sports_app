@@ -8,6 +8,8 @@ class Event(models.Model):
     #extra information about the event
     info = models.CharField(max_length=128)
     address = models.CharField(max_length=300)
+    latitude = models.FloatField(default=0.0)
+    longitude = models.FloatField(default=0.0)
 
     def __str__(self):
         return self.sport

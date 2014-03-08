@@ -7,11 +7,12 @@
     {% if event_list %}
         <ul>
             {% for event in event_list %}
-            <li>Sport: {{ event.sport }}, Players: {{ event.players }}, Info: {{ event.info }}, Address: {{ event.address }}</li>
+            <li>Sport: {{ event.sport }}, Players: {{ event.players }}, Info: {{ event.info }}, Address: {{ event.address }}, Latitude: {{ event.latitude }}, Longitude: {{ event.longitude }}</li>
             {% endfor %}
         </ul>
     {% else %}
         <strong>There are no events.</strong>
     {% endif %}
+    {{ coordinates }}
 </body>
 </html>
