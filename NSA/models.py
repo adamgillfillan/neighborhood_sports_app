@@ -13,3 +13,6 @@ class Event(models.Model):
 
     def __str__(self):
         return self.sport
+
+    def get_address(self):
+        return self.address
