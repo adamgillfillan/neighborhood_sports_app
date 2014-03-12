@@ -46,13 +46,17 @@ def add_event(request):
     if request.method == 'POST':
         form = EventForm(request.POST)
         if form.is_valid():
-            form.save(commit=True)
+            event = form.save(commit=False)
+            event.latitude, event.longitude = convert_address_to_lat_lng(event.address)
+            event.latitude = round(event.latitude, 7)
+            event.longitude = round(event.longitude, 7)
+            event.save()
+
             return index(request)
         else:
             print(form.errors)
     else:
         form = EventForm()
-
     return render_to_response('nsa/add_event.html', {'form': form, 'event_list': event_list}, context)
 
 
