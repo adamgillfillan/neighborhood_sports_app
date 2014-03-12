@@ -9,4 +9,5 @@ urlpatterns = patterns(
     url(r'^about', views.about, name='about'),
     url(r'^map', views.map, name='map'),
     url(r'^event', views.event, name='event'),
+    url(r'^add_event/$', views.add_event, name='add_event'),
 )
