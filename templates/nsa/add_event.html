@@ -4,7 +4,7 @@
     <title>Add an Event!</title>
 </head>
 <body>
-    <form class="span6" id="event_form" method="post" action="/NSA/add_event/">
+    <form class="span6" id="event_form" method="post" action="/nsa/add_event/">
         {% csrf_token %}
         {% comment %}{% for hidden in form.hidden_fields %}
             {{ hidden }}

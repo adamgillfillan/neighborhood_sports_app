@@ -53,7 +53,7 @@ def add_event(request):
     else:
         form = EventForm()
 
-    return render_to_response('NSA/add_event.html', {'form': form, 'event_list': event_list}, context)
+    return render_to_response('nsa/add_event.html', {'form': form, 'event_list': event_list}, context)
 
 
 def get_event_list():
