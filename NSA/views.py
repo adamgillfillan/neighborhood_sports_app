@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 from NSA.models import Event
+from NSA.forms import EventForm
 from pygeocoder import Geocoder
 
 
@@ -34,6 +35,25 @@ def event(request):
 
     context_dict = {'event_list': event_list}
     return render_to_response('nsa/event.html', context_dict, context)
+
+
+def add_event(request):
+    context = RequestContext(request)
+
+    event_list = get_event_list()
+    event_lat_long(event_list)
+
+    if request.method == 'POST':
+        form = EventForm(request.POST)
+        if form.is_valid():
+            form.save(commit=True)
+            return index(request)
+        else:
+            print(form.errors)
+    else:
+        form = EventForm()
+
+    return render_to_response('NSA/add_event.html', {'form': form, 'event_list': event_list}, context)
 
 
 def get_event_list():
