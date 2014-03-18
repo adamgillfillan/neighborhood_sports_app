@@ -19,7 +19,10 @@
             events.push({
                 'latitude': '{{ event.latitude }}',
                 'longitude': '{{ event.longitude }}',
-                'sport': '{{ event.sport }}'})
+                'sport': '{{ event.sport }}',
+                'information': '{{ event.info }}',
+                'players': '{{ event.players }}'
+            })
             console.log(events);
         {% endfor %}
     </script>
@@ -36,7 +39,11 @@
             map.addMarker({
                 lat: events[i].latitude,
                 lng: events[i].longitude,
-                title: events[i].sport });
+                title: events[i].sport,
+                infoWindow: {
+                    content: events[i].information + '<p>' + 'We have ' + events[i].players + ' players.' + '</p'
+                }
+            });
         }
     </script>
     <script src="{% static 'js/jquery.js' %}"></script>
