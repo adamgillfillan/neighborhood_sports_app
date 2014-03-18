@@ -41,7 +41,7 @@
                 lng: events[i].longitude,
                 title: events[i].sport,
                 infoWindow: {
-                    content: events[i].information + '<p>' + 'We have ' + events[i].players + ' players.' + '</p'
+                    content: 'We are playing ' + events[i].sport + '.' + '<br>' + events[i].information + '<br>' + 'We have ' + events[i].players + ' players.'
                 }
             });
         }

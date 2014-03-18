@@ -39,7 +39,7 @@
       <file leaf-file-name="map.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/nsa/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="104" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.72584856" vertical-offset="453" max-vertical-offset="952">
+            <state line="43" column="113" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.7972973" vertical-offset="436" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -93,7 +93,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
+            <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -544,13 +544,18 @@
       <created>1394645071609</created>
       <updated>1394645071609</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added infomarker to map">
+      <created>1395181293463</created>
+      <updated>1395181293463</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31723028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33713356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -566,7 +571,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31723028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -599,7 +603,8 @@
     <MESSAGE value="added geoposition to model" />
     <MESSAGE value="removed geoposition" />
     <MESSAGE value="added bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bootstrap" />
+    <MESSAGE value="added infomarker to map" />
+    <option name="LAST_COMMIT_MESSAGE" value="added infomarker to map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -870,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="12" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.3371105" vertical-offset="595" max-vertical-offset="38556" />
@@ -929,9 +927,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/neighborhood_sports_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nsa/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="104" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.72584856" vertical-offset="453" max-vertical-offset="952">
+        <state line="43" column="113" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.7972973" vertical-offset="436" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
