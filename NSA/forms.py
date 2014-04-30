@@ -1,7 +1,7 @@
 __author__ = 'adamg_000'
 from django import forms
 from NSA.models import Event
-#from django.contrib.auth.models import User
+#frnom django.contrib.auth.models import User
 
 
 class EventForm(forms.ModelForm):

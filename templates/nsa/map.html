@@ -3,13 +3,26 @@
 <html>
 <head>
     <title>Map</title>
-    <link href="{% static 'css/map.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvuX38ixu5Y8mD09agKjXH7xUNJPS_OIU&sensor=true">
     </script>
     <script src="{% static 'js/gmaps.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <link href="{% static 'css/map.css' %}" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
+    <div class="navbar navbar-default">
+      <div class="navbar-inner">
+        <div class="container" style="text-align:center;">
+            <a class="btn btn-success" href="/nsa/add_event">Add Event</a>
+            <!-- Change this one to log in feature..-->
+            <a class="btn btn-danger" href="/nsa">Log In</a>
+		  <!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
     <div id="map"></div>
 
     <script type="text/javascript">
