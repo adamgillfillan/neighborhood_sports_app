@@ -54,9 +54,9 @@
                 lat: events[i].latitude,
                 lng: events[i].longitude,
                 title: events[i].sport,
-{#                icon: ,#}
+                icon: "../../static/img/" + events[i].sport + ".png",
                 infoWindow: {
-                    content: 'We are playing ' + events[i].sport + '.' + '<br>' + 'We need ' + events[i].players + ' more players.' + '<br>' + '<a class="btn btn-success" href="/nsa/index">Join Event</a>'
+                    content: 'We are playing ' + events[i].sport + '.' + '<br>' + 'We have ' + events[i].players + ' players.' + '<br>' + '<a class="btn btn-success" href="/nsa/index">Join Event</a>'
                 }
             });
         }

@@ -34,9 +34,9 @@ def populate():
               latitude=williams_park_lat, longitude=williams_park_long)
     add_event(sport='Soccer', players=4, address=lake_johnson,
               latitude=lake_johnson_lat, longitude=lake_johnson_long)
-    add_event(sport='Ultimate Frisbee', players=20, address=pullen_park,
+    add_event(sport='Tennis', players=20, address=pullen_park,
               latitude=pullen_park_lat, longitude=pullen_park_long)
-    add_event(sport='Ultimate Frisbee', players=1, address=williams_park,
+    add_event(sport='Basketball', players=1, address=williams_park,
               latitude=williams_park_lat, longitude=williams_park_long)
 
     # Print out all events

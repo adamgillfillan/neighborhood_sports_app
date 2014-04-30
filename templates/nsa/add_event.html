@@ -3,7 +3,10 @@
 <html>
 <head>
     <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+{#    <script src="{% static 'js/jquery.dd.js' %}"></script>#}
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+{#    <link href="{% static 'css/dd.css' %}" rel="stylesheet">#}
 {#    <link href="{% static 'css/map.css' %}" rel="stylesheet">#}
     <title>Add an Event!</title>
     <meta name="viewport" content="width=device-width">
@@ -16,6 +19,28 @@
         {% for hidden in form.hidden_fields %}
             {{ hidden }}
         {% endfor %}
+
+{#        <select id="sports" name="sports">#}
+{#            <option value="Football" data-image="../../static/img/Football.png">Football</option>#}
+{#            <option value="Soccer" data-image="../../static/img/Soccer.png">Soccer</option>#}
+{#            <option value="Soccer" data-image="../../static/img/Soccer.png">Soccer</option>#}
+{#            <option value="Soccer" data-image="../../static/img/Soccer.png">Soccer</option>#}
+{#            <option value="Soccer" data-image="../../static/img/Soccer.png">Soccer</option>#}
+{#            <option value="hello" data-image="../../static/img/Football.png">Football</option>#}
+{#            <option value="hello" data-image="../../static/img/Football.png">Football</option>#}
+{#        </select>#}
+{#      <script language="javascript">#}
+{#        $(document).ready(function(e) {#}
+{#        try {#}
+{#        $("body select").msDropDown();#}
+{#        } catch(e) {#}
+{#        alert(e.message);#}
+{#        }#}
+{#        });#}
+{#      </script>#}
+{##}
+{##}
+
 
         {% for field in form.visible_fields %}
             {{ field.errors }}
