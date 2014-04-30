@@ -6,7 +6,7 @@ class Event(models.Model):
     #number of players the event needs
     players = models.IntegerField(default=0)
     #extra information about the event
-    info = models.CharField(max_length=128)
+    #info = models.CharField(max_length=128)
     address = models.CharField(max_length=300)
     latitude = models.FloatField(default=0.0)
     longitude = models.FloatField(default=0.0)

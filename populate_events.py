@@ -2,16 +2,17 @@ __author__ = 'Adam'
 import os
 
 
-def add_event(sport, players, info, address, latitude, longitude):
+def add_event(sport, players, address, latitude, longitude):
     event = Event.objects.get_or_create(sport=sport, players=players,
-                                        info=info, address=address,
+                                        #info=info,
+                                        address=address,
                                         latitude=latitude, longitude=longitude)[0]
     return event
 
 
 def populate():
-    info_a = 'We will be here for another 2 hours. Need more people'
-    info_b = 'We are on the second field.'
+    #info_a = 'We will be here for another 2 hours. Need more people'
+    #info_b = 'We are on the second field.'
 
     lake_johnson = 'Lake Johnson Park, Raleigh, NC'
     pullen_park = 'Pullen Park, Raleigh, NC'
@@ -25,25 +26,25 @@ def populate():
     williams_park_long = '-78.665720'
 
 
-    add_event(sport='Football', players=6, info=info_a, address=lake_johnson,
+    add_event(sport='Football', players=6, address=lake_johnson,
               latitude=lake_johnson_lat, longitude=lake_johnson_long)
-    add_event(sport='Football', players=10, info=info_b, address=pullen_park,
+    add_event(sport='Football', players=10, address=pullen_park,
               latitude=pullen_park_lat, longitude=pullen_park_long)
-    add_event(sport='Soccer', players=14, info=info_a, address=williams_park,
+    add_event(sport='Soccer', players=14, address=williams_park,
               latitude=williams_park_lat, longitude=williams_park_long)
-    add_event(sport='Soccer', players=4, info=info_a, address=lake_johnson,
+    add_event(sport='Soccer', players=4, address=lake_johnson,
               latitude=lake_johnson_lat, longitude=lake_johnson_long)
-    add_event(sport='Ultimate Frisbee', players=20, info=info_b, address=pullen_park,
+    add_event(sport='Ultimate Frisbee', players=20, address=pullen_park,
               latitude=pullen_park_lat, longitude=pullen_park_long)
-    add_event(sport='Ultimate Frisbee', players=1, info=info_a, address=williams_park,
+    add_event(sport='Ultimate Frisbee', players=1, address=williams_park,
               latitude=williams_park_lat, longitude=williams_park_long)
 
     # Print out all events
     for event in Event.objects.all():
-        print("Sport: {0}, Players: {1}, Info: {2}, Address: {3}, Latitude: {4}, Longitude: {5}".format(
+        print("Sport: {0}, Players: {1}, Address: {2}, Latitude: {3}, Longitude: {4}".format(
             event.sport,
             str(event.players),
-            event.info,
+            #event.info,
             event.address,
             str(event.latitude),
             str(event.longitude)
