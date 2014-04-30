@@ -52,7 +52,8 @@ def add_event(request):
             event.longitude = round(event.longitude, 7)
             event.save()
 
-            return index(request)
+            #Change where redirect goes for success on form submission
+            return map(request)
         else:
             print(form.errors)
     else:
