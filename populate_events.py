@@ -44,7 +44,7 @@ def populate():
               latitude=the_oval_lat, longitude=the_oval_long)
     add_event(sport='Tennis', players=20, address=kentwood_park,
               latitude=kentwood_park_lat, longitude=kentwood_park_long)
-    add_event(sport='Basketball', players=1, address=carmichael_gym,
+    add_event(sport='Basketball', players=2, address=carmichael_gym,
               latitude=carmichael_gym_lat, longitude=carmichael_gym_long)
 
     # Print out all events

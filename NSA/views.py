@@ -78,3 +78,8 @@ def convert_address_to_lat_lng(address):
     return results[0].coordinates
 
 
+def login(request):
+    context = RequestContext(request)
+    context_dict = {}
+    return render_to_response('nsa/login.html', context_dict, context)
+

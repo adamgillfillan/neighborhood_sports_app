@@ -11,4 +11,5 @@ urlpatterns = patterns(
     #url(r'^map', views.map, name='map'),
     url(r'^event', views.event, name='event'),
     url(r'^add_event/$', views.add_event, name='add_event'),
+    url(r'^login', views.login, name='login'),
 )
