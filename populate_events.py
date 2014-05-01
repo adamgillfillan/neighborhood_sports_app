@@ -17,6 +17,9 @@ def populate():
     lake_johnson = 'Lake Johnson Park, Raleigh, NC'
     pullen_park = 'Pullen Park, Raleigh, NC'
     williams_park = '1525 Lynn Road, Raleigh, NC'
+    the_oval = "On the Oval Culinary Creations, Raleigh, NC 27606"
+    kentwood_park = "Kentwood Park, 4531 Kaplan Dr, Raleigh, NC 27606"
+    carmichael_gym = "Carmichael Gymnasium, Raleigh, NC"
 
     lake_johnson_lat = '35.763521'
     lake_johnson_long = '-78.7138224'
@@ -24,7 +27,12 @@ def populate():
     pullen_park_long = '-78.6643668'
     williams_park_lat = '35.869753'
     williams_park_long = '-78.665720'
-
+    the_oval_lat = '35.74183'
+    the_oval_long = '-78.713608'
+    kentwood_park_lat = '35.74183'
+    kentwood_park_long = '-78.713608'
+    carmichael_gym_lat = '35.74183'
+    carmichael_gym_long = '-78.713608'
 
     add_event(sport='Football', players=6, address=lake_johnson,
               latitude=lake_johnson_lat, longitude=lake_johnson_long)
@@ -32,12 +40,12 @@ def populate():
               latitude=pullen_park_lat, longitude=pullen_park_long)
     add_event(sport='Soccer', players=14, address=williams_park,
               latitude=williams_park_lat, longitude=williams_park_long)
-    add_event(sport='Soccer', players=4, address=lake_johnson,
-              latitude=lake_johnson_lat, longitude=lake_johnson_long)
-    add_event(sport='Tennis', players=20, address=pullen_park,
-              latitude=pullen_park_lat, longitude=pullen_park_long)
-    add_event(sport='Basketball', players=1, address=williams_park,
-              latitude=williams_park_lat, longitude=williams_park_long)
+    add_event(sport='Baseball', players=4, address=the_oval,
+              latitude=the_oval_lat, longitude=the_oval_long)
+    add_event(sport='Tennis', players=20, address=kentwood_park,
+              latitude=kentwood_park_lat, longitude=kentwood_park_long)
+    add_event(sport='Basketball', players=1, address=carmichael_gym,
+              latitude=carmichael_gym_lat, longitude=carmichael_gym_long)
 
     # Print out all events
     for event in Event.objects.all():

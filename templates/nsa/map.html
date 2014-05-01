@@ -49,6 +49,14 @@
             lng: raleigh_long,
             zoom: 12
         });
+        function myFunction(){
+{#            $('#map').html('<div class="alert alert-success">Test</div>')#}
+            alert("You have joined this event!")
+        }
+{#        var myBtn = document.getElementById('myBtn');#}
+{#        myBtn.addEventListener('click', function(event){#}
+{#           $('#map').html('<div class="alert alert-success">Test</div>')#}
+{#        });#}
         for(var i=0; i < events.length; i++){
             map.addMarker({
                 lat: events[i].latitude,
@@ -56,11 +64,15 @@
                 title: events[i].sport,
                 icon: "../../static/img/" + events[i].sport + ".png",
                 infoWindow: {
-                    content: 'We are playing ' + events[i].sport + '.' + '<br>' + 'We have ' + events[i].players + ' players.' + '<br>' + '<a class="btn btn-success" href="/nsa/index">Join Event</a>'
+                    content: 'We are playing ' + events[i].sport + '.' + '<br>' + 'We have ' + events[i].players +
+                            ' players.' + '<br>' + '<button id="myBtn" class="btn btn-success" onclick="myFunction()">Join Event</button>'
+{#                    <button class="btn btn-success" href="/nsa" onclick="myFunction()">Join Event</button>'#}
                 }
             });
         }
     </script>
+    <a id="hello"></a>
+
     <script src="{% static 'js/bootstrap.js' %}"></script>
     <script src="{% static 'js/jquery.js' %}"></script>
 </body>
