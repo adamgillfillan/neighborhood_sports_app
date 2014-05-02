@@ -35,8 +35,10 @@
                 'longitude': '{{ event.longitude }}',
                 'sport': '{{ event.sport }}',
 {#                'information': '{{ event.info }}',#}
-                'players': '{{ event.players }}'
-            })
+                'players': '{{ event.players }}',
+                'weekday': '{{ event.weekday }}',
+                '_time': '{{ event.time }}'
+            });
             console.log(events);
         {% endfor %}
     </script>
@@ -64,8 +66,9 @@
                 title: events[i].sport,
                 icon: "../../static/img/" + events[i].sport + ".png",
                 infoWindow: {
-                    content: 'We are playing ' + events[i].sport + '.' + '<br>' + 'We have ' + events[i].players +
-                            ' players.' + '<br>' + '<button id="myBtn" class="btn btn-success" onclick="myFunction()">Join Event</button>'
+                    content: 'We are playing ' + events[i].sport + " on " + events[i].weekday + " at " + " 5:30 p.m." + '<br>' +
+                            'We have ' + events[i].players + ' players.' + '<br>' +
+                            '<button id="myBtn" class="btn btn-success" onclick="myFunction()">Join Event</button>'
 {#                    <button class="btn btn-success" href="/nsa" onclick="myFunction()">Join Event</button>'#}
                 }
             });

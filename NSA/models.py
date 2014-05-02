@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 
 class Event(models.Model):
@@ -7,6 +8,9 @@ class Event(models.Model):
     players = models.IntegerField(default=0)
     #extra information about the event
     #info = models.CharField(max_length=128)
+    #date = models.CharField()
+    weekday = models.CharField(max_length=30)
+    time = models.TimeField()
     address = models.CharField(max_length=300)
     latitude = models.FloatField(default=0.0)
     longitude = models.FloatField(default=0.0)

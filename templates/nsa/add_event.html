@@ -4,8 +4,10 @@
 <head>
     <script src="{% static 'js/bootstrap.js' %}"></script>
     <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap-timepicker.js' %}"></script>
 {#    <script src="{% static 'js/jquery.dd.js' %}"></script>#}
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-timepicker.css' %}" rel="stylesheet">
 {#    <link href="{% static 'css/dd.css' %}" rel="stylesheet">#}
 {#    <link href="{% static 'css/map.css' %}" rel="stylesheet">#}
     <title>Add an Event!</title>
@@ -36,10 +38,12 @@
 
         .form-group{
             font-size: 16px;
-        height: auto;
-        margin-bottom: 15px;
-        padding: 7px 9px;
-      }
+            height: auto;
+            margin-bottom: 15px;
+            padding: 7px 9px;
+        }
+        .form-signin-heading{
+            margin-bottom: -10px;
         }
     </style>
 </head>
@@ -47,13 +51,48 @@
 
 {#    <form class="span6" id="event_form" method="post" action="/nsa/add_event/">#}
     <form class="navbar-form" id="event_form" method="post" action="/nsa/add_event/">
+    <h4 class="form-signin-heading">Create an Event!</h4>
     <div class="form-group">
         {% csrf_token %}
         {% for hidden in form.hidden_fields %}
             {{ hidden }}
         {% endfor %}
+        {% for field in form.visible_fields %}
+            {{ field.errors }}
+{#            {{ field.help_text }}#}
+            <br />
+            {% if field.help_text == "Sport" %}
+                {{ field }}
+            {% endif %}
+            {% if field.help_text == "Number of players you have" %}
+                {{ field }}
+            {% endif %}
+            {% if field.help_text == "Day of week" %}
+                {{ field }}
+            {% endif %}
+            {% if field.help_text == "Time" %}
+            <div class="input-append bootstrap-timepicker">
+                <input id="timepicker" type="text" class="input-small timepicker">
+{#                    {{ field }}#}
+                <span class="add-on"><i class="icon-time"></i></span>
+            </div>
+            {% endif %}
+            {% if field.help_text == "Address" %}
+                {{ field }}
+                <br />
+            {% endif %}
+{#            <br />#}
+        {% endfor %}
 
-{#        <select id="sports" name="sports">#}
+        <br />
+    <a class="btn" type="button" href="/nsa">Back</a>
+    <button class="btn btn-success pull-right" type="submit">Create Event</button>
+    </div>
+
+        <script type="text/javascript">
+            $('#timepicker').timepicker();
+        </script>
+    {#        <select id="sports" name="sports">#}
 {#            <option value="Football" data-image="../../static/img/Football.png">Football</option>#}
 {#            <option value="Soccer" data-image="../../static/img/Soccer.png">Soccer</option>#}
 {#            <option value="Soccer" data-image="../../static/img/Soccer.png">Soccer</option>#}
@@ -73,19 +112,6 @@
 {#      </script>#}
 {##}
 {##}
-
-
-        {% for field in form.visible_fields %}
-            {{ field.errors }}
-            {{ field.help_text }}
-            <br />
-            {{ field }}
-            <br />
-        {% endfor %}
-        <br />
-    <a class="btn" type="button" href="/nsa">Back</a>
-    <button class="btn btn-success pull-right" type="submit">Create Event</button>
-    </div>
 
     </form>
 </body>

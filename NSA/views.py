@@ -48,6 +48,7 @@ def add_event(request):
         if form.is_valid():
             event = form.save(commit=False)
             event.latitude, event.longitude = convert_address_to_lat_lng(event.address)
+            event.time = "5:30 p.m."
             event.latitude = round(event.latitude, 7)
             event.longitude = round(event.longitude, 7)
             event.save()
@@ -82,4 +83,9 @@ def login(request):
     context = RequestContext(request)
     context_dict = {}
     return render_to_response('nsa/login.html', context_dict, context)
+
+def register(request):
+    context = RequestContext(request)
+    context_dict = {}
+    return render_to_response('nsa/register.html', context_dict, context)
 
