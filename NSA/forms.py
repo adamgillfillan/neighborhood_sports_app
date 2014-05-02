@@ -23,12 +23,14 @@ WEEKDAY_CHOICES = (("Select Day ...", "Select Day ..."),
 
 class EventForm(forms.ModelForm):
     sport = forms.ChoiceField(choices=SPORT_CHOICES, help_text="Sport")   #forms.CharField(max_length=50, help_text="Sport")
-    players = forms.ChoiceField(choices=PLAYER_CHOICES, help_text="Number of players you have")   #forms.IntegerField(help_text="Number of players you have.")
+    players = forms.ChoiceField(choices=PLAYER_CHOICES, help_text="Number of players you have",
+                                error_messages={'invalid': 'Please select the number of players'})   #forms.IntegerField(help_text="Number of players you have.")
     # info = forms.CharField(widget=forms.Textarea, required=False, help_text=" (Optional) Please enter any information that may help those "
     #                                                         "wishing to play with you.")
     weekday = forms.ChoiceField(choices=WEEKDAY_CHOICES, help_text="Day of week")
     time = forms.TimeField(help_text="Time", required=False)#widget=forms.TimeInput(format='%H:%M', attrs={'class': 'timepicker'}))
-    address = forms.CharField(help_text="Address", widget=forms.TextInput(attrs={'placeholder': 'Carmichael Gym, Raleigh, NC'}))
+    address = forms.CharField(help_text="Address", error_messages={'required': 'Please enter the address of the event'},
+                              widget=forms.TextInput(attrs={'placeholder': 'Carmichael Gym, Raleigh, NC'}))
     latitude = forms.FloatField(widget=forms.HiddenInput(), initial=0)
     longitude = forms.FloatField(widget=forms.HiddenInput(), initial=0)
 
