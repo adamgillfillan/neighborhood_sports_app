@@ -2,9 +2,9 @@ __author__ = 'Adam'
 import os
 
 
-def add_event(sport, players, address, latitude, longitude):
+def add_event(sport, players, weekday, time, address, latitude, longitude):
     event = Event.objects.get_or_create(sport=sport, players=players,
-                                        #info=info,
+                                        weekday=weekday, time=time,
                                         address=address,
                                         latitude=latitude, longitude=longitude)[0]
     return event
@@ -35,16 +35,22 @@ def populate():
     carmichael_gym_long = '-78.713608'
 
     add_event(sport='Football', players=6, address=lake_johnson,
+              weekday="Friday", time="3:30 p.m.",
               latitude=lake_johnson_lat, longitude=lake_johnson_long)
     add_event(sport='Football', players=10, address=pullen_park,
+              weekday="Sunday", time="3:30 p.m.",
               latitude=pullen_park_lat, longitude=pullen_park_long)
     add_event(sport='Soccer', players=14, address=williams_park,
+              weekday="Saturday", time="3:30 p.m.",
               latitude=williams_park_lat, longitude=williams_park_long)
     add_event(sport='Baseball', players=4, address=the_oval,
+              weekday="Monday", time="3:30 p.m.",
               latitude=the_oval_lat, longitude=the_oval_long)
     add_event(sport='Tennis', players=20, address=kentwood_park,
+              weekday="Wednesday", time="3:30 p.m.",
               latitude=kentwood_park_lat, longitude=kentwood_park_long)
     add_event(sport='Basketball', players=2, address=carmichael_gym,
+              weekday="Thursday", time="3:30 p.m.",
               latitude=carmichael_gym_lat, longitude=carmichael_gym_long)
 
     # Print out all events
