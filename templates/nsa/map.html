@@ -74,7 +74,7 @@
 
         var n = weekday[d.getDay()];
         for(var i=0; i < events.length; i++){
-            if (events[i].weekday == n){
+{#            if (events[i].weekday == n){#}
                 map.addMarker({
                 lat: events[i].latitude,
                 lng: events[i].longitude,
@@ -88,24 +88,25 @@
 {#                    <button class="btn btn-success" href="/nsa" onclick="myFunction()">Join Event</button>'#}
                 }
             });
-                }
-            else{
-                map.addMarker({
-                lat: events[i].latitude,
-                lng: events[i].longitude,
-                title: events[i].sport,
-                icon: "../../static/img/old" + events[i].sport + ".png",
-{#                        "../../static/img/" + events[i].sport + ".png",#}
-                infoWindow: {
-                    content: events[i].weekday + " at " + " 5:30 p.m." + '<br>' +
-                            events[i].address + '<br>' +
-                            'We have ' + events[i].players + ' players.' + '<br>' +
-                            '<button id="myBtn" class="btn btn-success" onclick="myFunction()">Join Event</button>'
-{#                    <button class="btn btn-success" href="/nsa" onclick="myFunction()">Join Event</button>'#}
-                }
-            });
-            }
         }
+{#                }#}
+{#            else{#}
+{#                map.addMarker({#}
+{#                lat: events[i].latitude,#}
+{#                lng: events[i].longitude,#}
+{#                title: events[i].sport,#}
+{#                icon: "../../static/img/old" + events[i].sport + ".png",#}
+{#                        "../../static/img/" + events[i].sport + ".png",#}
+{#                infoWindow: {#}
+{#                    content: events[i].weekday + " at " + " 5:30 p.m." + '<br>' +#}
+{#                            events[i].address + '<br>' +#}
+{#                            'We have ' + events[i].players + ' players.' + '<br>' +#}
+{#                            '<button id="myBtn" class="btn btn-success" onclick="myFunction()">Join Event</button>'#}
+{#                    <button class="btn btn-success" href="/nsa" onclick="myFunction()">Join Event</button>'#}
+{#                }#}
+{#            });#}
+{#            }#}
+{#        }#}
     </script>
     <a id="hello"></a>
 

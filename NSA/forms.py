@@ -7,7 +7,7 @@ from django.utils.safestring import mark_safe
 PLAYER_CHOICES = (("Select Number of Players ...", "Select Number of Players ..."), (5, 'Less than 5 players'), (10, '5-10 players'), (15, '11-15 players'), (16, 'More than 15 players'))
 SPORT_CHOICES = (("Select Sport ...", "Select Sport ..."),
                  ('Football', mark_safe('Football <img src="../../static/img/Football.png"/>')),
-                 ('Cricket', mark_safe('Soccer <img src="../../static/img/Cricket.png"/>')),
+                 ('Soccer', mark_safe('Soccer <img src="../../static/img/Soccer.png"/>')),
                  ('Tennis', mark_safe('Tennis <img src="../../static/img/Football.png"/>')),
                  ('Basketball', mark_safe('Basketball <img src="../../static/img/Football.png"/>')),
                  ('Baseball', mark_safe('Baseball <img src="../../static/img/Football.png"/>')))
