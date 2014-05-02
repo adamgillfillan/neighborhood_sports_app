@@ -46,7 +46,7 @@ def populate():
     add_event(sport='Baseball', players=4, address=the_oval,
               weekday="Monday", time="3:30 p.m.",
               latitude=the_oval_lat, longitude=the_oval_long)
-    add_event(sport='Tennis', players=20, address=kentwood_park,
+    add_event(sport='Tennis', players=2, address=kentwood_park,
               weekday="Wednesday", time="3:30 p.m.",
               latitude=kentwood_park_lat, longitude=kentwood_park_long)
     add_event(sport='Basketball', players=2, address=carmichael_gym,
