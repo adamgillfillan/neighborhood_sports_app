@@ -40,7 +40,7 @@ def populate():
     add_event(sport='Football', players=10, address=pullen_park,
               weekday="Sunday", time="3:30 p.m.",
               latitude=pullen_park_lat, longitude=pullen_park_long)
-    add_event(sport='Soccer', players=14, address=williams_park,
+    add_event(sport='Cricket', players=14, address=williams_park,
               weekday="Saturday", time="3:30 p.m.",
               latitude=williams_park_lat, longitude=williams_park_long)
     add_event(sport='Baseball', players=4, address=the_oval,
